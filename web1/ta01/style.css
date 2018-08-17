@@ -1,0 +1,25 @@
+body{
+    background-color: darkred;
+    color: aliceblue;
+}
+span{
+    text-decoration: underline;
+}
+.container{
+    margin-top: -250px;
+    padding: 90px;
+    border-radius: 15px;
+    background-color: brown;
+    text-align: justify;
+    margin-left: 300px;
+}
+#box{
+    margin-top: 10px;
+}
+.socialicon{
+    -webkit-filter: invert(0%);
+}
+.socialicon:hover{
+    -webkit-filter:invert(100%);
+    transition: 0.5s;
+}
