@@ -1,21 +1,48 @@
 body{
     background-color: darkred;
     color: aliceblue;
+    font-family: monospace;
+}
+header{
+    text-align: center;
 }
 span{
     text-decoration: underline;
 }
-.container{
-    margin-top: -250px;
-    padding: 90px;
-    border-radius: 15px;
+.container{    
+    padding: 15px;
+    border-radius: 10px;
     background-color: brown;
-    text-align: justify;
-    margin-left: 300px;
+    text-align: left;    
 }
-#box{
-    margin-top: 10px;
+img#gif{
+    float: right;
+    width: 30%;
 }
+.table{
+    position: relative;
+    left: 480px;
+    top: 30px;
+}
+/*tabela*/
+table, th, td{
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    border-collapse: collapse;
+    text-align: center;
+}
+table#t01{
+    align-self: center;
+}
+table#t01 tr:nth-child(even) {
+    background-color: brown;
+}
+table#t01 tr:nth-child(odd) {
+    background-color:darkred;
+}
+table#t01 th {
+    background-color: rgb(51, 2, 2);
+}
+/*mudar a cor do icon*/
 .socialicon{
     -webkit-filter: invert(0%);
 }
