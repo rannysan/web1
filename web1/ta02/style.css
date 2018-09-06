@@ -92,3 +92,20 @@
 .end{
     align-self: center;
 }
+
+/*utilizando o flex-basis*/
+.basis_auto{
+    flex-basis: auto;
+}
+.basis_grow{
+    flex-grow: 3;
+    flex-basis: auto;
+}
+
+/*utilizando flex-shrink  no flex fazendo com que a imagem preencha o espaço do container*/
+.imgEx{
+    flex: 1 1 70px;
+}
+.flex_shrink{
+    flex-wrap: wrap;
+}
